@@ -2,12 +2,14 @@
   "name": "stcengine",
   "version": "1.0.0",
   "description": "Playback engine for the ZX Spectrum Soundtracker (.stc) file format",
+  "homepage": "https://github.com/reverietracker/stcengine",
+  "bugs": "https://github.com/reverietracker/stcengine/issues",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
   },
   "author": "Matt Westcott",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "docpress": "^0.8.2",
     "jest": "^27.3.1",
