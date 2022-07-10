@@ -10,9 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "docpress": "^0.8.2",
-    "jest": "^27.3.1"
-  },
-  "dependencies": {
+    "jest": "^27.3.1",
     "stcformat": "^1.0.0"
   }
 }
