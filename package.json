@@ -1,6 +1,6 @@
 {
   "name": "stcengine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Playback engine for the ZX Spectrum Soundtracker (.stc) file format",
   "homepage": "https://github.com/reverietracker/stcengine",
   "bugs": "https://github.com/reverietracker/stcengine/issues",
