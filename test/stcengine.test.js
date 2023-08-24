@@ -11,8 +11,8 @@ test("can play STC files", () => {
     const registerWrites0 = engine.getAudioFrame();
     expect(registerWrites0).toStrictEqual([
         [ 0, 0 ],   [ 1, 0 ],
-        [ 2, 162 ], [ 3, 2 ],
-        [ 4, 224 ], [ 5, 7 ],
+        [ 2, 62 ],  [ 3, 1 ],
+        [ 4, 190 ], [ 5, 3 ],
         [ 6, 0 ],   [ 7, 240 ],
         [ 8, 0 ],   [ 9, 15 ],
         [ 10, 16 ], [ 11, 60 ],
@@ -21,7 +21,7 @@ test("can play STC files", () => {
     const registerWrites1 = engine.getAudioFrame();
     expect(registerWrites1).toStrictEqual([]);
     const registerWrites2 = engine.getAudioFrame();
-    expect(registerWrites2).toStrictEqual([[ 2, 248 ], [ 3, 1 ], [ 9, 14 ]]);
+    expect(registerWrites2).toStrictEqual([[ 2, 239 ], [ 3, 0 ], [ 9, 14 ]]);
     const registerWrites3 = engine.getAudioFrame();
     expect(registerWrites3).toStrictEqual([]);
 

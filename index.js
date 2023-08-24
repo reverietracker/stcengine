@@ -11,7 +11,7 @@ const TONE_PERIODS = [
     0x003b, 0x0038, 0x0035, 0x0032, 0x002f, 0x002c, 0x002a, 0x0027,
     0x0025, 0x0023, 0x0021, 0x001f, 0x001d, 0x001c, 0x001a, 0x0019,
     0x0017, 0x0016, 0x0015, 0x0013, 0x0012, 0x0011, 0x0010, 0x000f
-].map((i) => {return i * 2;});
+];
 
 const NOTE_VALUES_BY_NAME = {};
 const NOTE_NAMES = ['C-', 'C#', 'D-', 'D#', 'E-', 'F-', 'F#', 'G-', 'G#', 'A-', 'A#', 'B-'];
@@ -154,7 +154,7 @@ class STCEngine {
                 if (channelState.ornament !== null) {
                     note += channelState.ornament.tones[sampleFrame];
                 }
-                let period = TONE_PERIODS[note - 1];
+                let period = TONE_PERIODS[note];
 
                 period -= sample.tones[sampleFrame];
                 period &= 0x0fff;
